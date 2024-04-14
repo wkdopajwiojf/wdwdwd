@@ -301,7 +301,7 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "ปืนแรงโน้มถ่วง (เครื่องมือยกสิ่งของ)",
    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/wkdopajwiojf/wdwdwd/main/d'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/wkdopajwiojf/wdwdwd/main/G'))()
    end,
 })
 
