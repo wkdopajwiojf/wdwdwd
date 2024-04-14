@@ -309,6 +309,13 @@ local MainTab = Window:CreateTab("เวอร์ชั่นภาษา", nil)
 local Section = MainTab:CreateSection("ภาษา")
 
 local Button = MainTab:CreateButton({
+   Name = "english",
+   Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/AMMFS7jZ'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "ภาษาไทย (กำลังใช้อยู่)",
    Callback = function()
         loadstring(game:HttpGet(''))()
